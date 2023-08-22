@@ -1,0 +1,393 @@
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    background-color: #37517e;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.active {
+    color: blue;
+}
+
+#getstarted {
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    border: 2px solid #47b2e4;
+    font-weight: 600;
+}
+
+.drop {
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.dropdown-main {
+    position: relative;
+    color: black;
+}
+
+.dropdown-main .drop {
+    visibility: hidden;
+    position: absolute;
+}
+
+.dropdown-main:hover .drop {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+}
+
+.deep-drop .down {
+    padding: 20px 20px;
+    color: black;
+    background-color: white;
+}
+
+.deep-drop .down {
+    visibility: hidden;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    transition: 0.3s;
+    display: block;
+}
+
+.deep-drop:hover .down {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: #37517e;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#hero .btn-get-started {
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    background-color: #47b2e4;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#hero .btn-watch-video {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#hero .btn-watch-video i {
+    line-height: 0;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+    margin-right: 8px;
+}
+
+.image-fluid-animated {
+    width: 100%;
+    height: auto;
+}
+
+.clients img {
+    width: 45%;
+    padding: 15px 0;
+}
+
+.clients {
+    background-color: #f3f5fa;
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    margin-left: 500px;
+    bottom: 1px;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0px;
+    margin-left: 540px;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.about .content ul i {
+    left: 0px;
+    top: 2px;
+    font-size: 20px;
+    color: #47b2e4;
+    position: absolute;
+}
+
+.about .content li {
+    padding-left: 28px;
+    position: relative;
+}
+
+.about .content .btn-learn-more {
+    text-decoration: none;
+    border: 2px solid#47b2e4;
+    padding: 12px 32px;
+    color: #47b2e4;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.why-us .content {
+    padding: 45px 100px 0 100px;
+}
+
+.why-us .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+}
+
+.why-us .content p {
+    font-size: 15px;
+    color: #848484;
+}
+
+.accordion {
+    background-color: whitesmoke;
+    width: 500px;
+    margin-left: 70px;
+}
+
+.accordion-header {
+    padding: 15px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#why-us {
+    background-color: #f3f5fa;
+    height: 600px;
+}
+
+.row .col-lg-5 img {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.skills .row {
+    margin-top: 80px;
+}
+
+.service .service-title {
+    text-align: center;
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title .tash::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90px;
+    background-color: #ddd;
+    left: 510px;
+}
+
+.section-title .tash::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: #47b2e4;
+    left: 540px;
+}
+
+.row .crd {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.card {
+    box-shadow: 10px 30px 50px grey;
+}
+
+.action {
+    margin-top: 70px;
+    background-color: rgba(40, 58, 90, 0.9);
+    height: 200px;
+    color: white;
+}
+
+.row button {
+    border-radius: 20px;
+}
+
+.row button a {
+    text-decoration: none;
+}
+
+.action .row {
+    display: flex;
+    align-items: center;
+}
+
+
+/* .portfolio {
+    margin-top: 50px;
+}
+
+.portfolio .title {
+    text-align: center;
+}
+
+.title {
+    position: relative;
+}
+
+.title .ash::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90px;
+    background-color: #ddd;
+    left: 510px;
+}
+
+.title .ash::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: #47b2e4;
+    left: 540px;
+}
+
+.portfolio ul li {
+    list-style: none;
+    padding-left: 50px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.portfolio ul .filter-active {
+    background-color: darkblue;
+} */
+
+.team .team-title {
+    text-align: center;
+}
+
+.team {
+    margin-top: 50px;
+}
+
+.team-title .sh::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background-color: #ddd;
+    left: 620px;
+}
+
+.team-title .sh::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #47b2e4;
+    left: 635px;
+}
+
+.card-fi img {
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.card-no {
+    box-shadow: 2px 3px 5px grey;
+    border: none;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.card-1 span {
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: grey;
+}

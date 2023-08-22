@@ -1,0 +1,39 @@
+body {
+    background-color: #fbfbfb;
+    }
+   
+    
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+    
+    .acc{
+       width:25px;
+       height:25px;
+        border-radius:50%;
+        background-color:blue;
+       
+    }
+    .acc p{
+        margin-left: 5px;
+        margin-top: -2px;
+        color:white;
+    }
+
+    #fullfil{
+        margin-left: 50%;
+    }
+
+    #full{
+        margin-left: 200px;
+    }
+    
+    
